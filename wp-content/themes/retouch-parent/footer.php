@@ -9,7 +9,7 @@
 <footer id="footer">
 
     <?php if(!empty($footer_logo)):?>
-        <figure><img src="<?php echo esc_url($footer_logo['url']);?>" alt="" width="174" height="55"></figure>
+        <figure><img src="<?php echo esc_url($footer_logo['url']);?>" alt="" width="auto" height="55"></figure>
     <?php endif;?>
 
     <?php
