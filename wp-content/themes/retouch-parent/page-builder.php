@@ -13,7 +13,7 @@ get_header(); ?>
         if ( comments_open() ) {
             ?>
             <div class="comment-page-full">
-                
+                <?php comments_template(); ?>
             </div>
         <?php
         }
