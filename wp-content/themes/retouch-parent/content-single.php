@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li><i class="icon-basic" data-icon="x"></i> <?php echo get_the_date(); ?></li>
-            <li><a href="<?php echo esc_url($permalink); ?>#commentform"><i class="icon-basic" data-icon=","></i> <?php comments_number( __( '0', 'fw' ), __( '1', 'fw' ), __( '%', 'fw' ) ); ?></a></li>
+            
         </ul>
     </header>
     <?php if(!empty($image)):?>

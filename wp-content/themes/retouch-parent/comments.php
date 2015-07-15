@@ -86,33 +86,4 @@ $args = array(
 );
 ?>
 
-    <?php comment_form($args); ?>
-
-    <?php if ( have_comments() ) : ?>
-
-        <ul class="comments-a">
-            <?php
-            get_template_part( 'comments', 'template' );
-            wp_list_comments( array( 'callback' => 'fw_theme_comment' ) );
-            ?>
-        </ul><!-- .comment-list -->
-
-        <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
-            <nav class="navigation paging-navigation" role="navigation">
-                <div class="pagination loop-pagination">
-                    <?php
-                    $args = array(
-                        'prev_text'    => '<span> '.__('PREV','fw').'</span>',
-                        'next_text'    => '<span>'.__('NEXT','fw').'</span>',
-                    );
-                    paginate_comments_links($args); ?>
-                </div>
-            </nav>
-        <?php endif; // Check for comment navigation. ?>
-
-        <?php if ( ! comments_open() ) : ?>
-            <p class="no-comments"><?php _e( 'Comments are closed.', 'fw' ); ?></p>
-        <?php endif; ?>
-
-    <?php endif; // have_comments() ?>
 

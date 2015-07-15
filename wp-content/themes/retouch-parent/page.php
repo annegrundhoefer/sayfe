@@ -16,10 +16,7 @@ get_header(); ?>
                     <?php the_content();?>
                 </article>
 
-             <?php   // If comments are open, load up the comment template.
-                if ( comments_open() ) {
-                    comments_template();
-                }
+             
             endwhile;?>
         </div>
         <?php get_sidebar(); ?>
