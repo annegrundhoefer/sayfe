@@ -100,7 +100,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 #clone h1 a { width: 167px; background-position: -5px -5px; background-repeat: no-repeat; }
 #clone nav { top: 19px; }
 #root #clone nav > ul > li.sub:hover > a { padding-bottom: 2px; border-radius: 5px 5px 0 0; background: #000; color: #fff; }
-#clone nav > ul > li > a { color: #6f8188; text-decoration: none; }
+#clone nav > ul > li > a { color: #000; text-decoration: none; }
 #clone nav > ul > li.active > a, #clone nav > ul > li:hover > a, #clone nav > ul > li > a:hover { color: #000; }
 #clone nav > ul > li.a > a { border-radius: 5px; background: #02aeef; color: #fff; }
 #clone nav > ul > li > ul { border-radius: 0 5px 5px 5px; background: #000; }
@@ -1937,7 +1937,7 @@ fieldset.form-b {
 
 #content.page-template.a article.team-members{padding-top:0px;}
 
-#nav > ul > li.current-menu-item > a {color: #6f8188;background: #1a3664;}
+#nav > ul > li.current-menu-item > a {color: #6f8188;}
 
 #clone nav > ul > li.current-menu-item > a {
     color: #000;
