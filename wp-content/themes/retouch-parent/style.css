@@ -872,7 +872,7 @@ svg:not(:root) { overflow: hidden; }
 ::selection { background: #000; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #000; color: #fff; text-shadow: none; }
 
-#root .desktop-hide, #root .tablet-only, #root .mobile-only, #root .regular-only { position: absolute; left: -3000em; top: -3000em; bottom: inherit; right: inherit; }
+#root .desktop-hide, #root .tablet-only, #root .mobile-only, #root .regular-only { position: absolute;  top: -3000em; bottom: inherit; right: inherit; }
 
 /*! Fonts --------- */
 @font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff'); }
