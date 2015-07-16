@@ -10,8 +10,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header>
         <?php if(!empty($image)):?>
-            <?php $image = defined('FW') ? esc_url(fw_resize($image, 700, 316)) : esc_url($image);?>
-            <figure><img src="<?php echo $image; ?>" alt="<?php the_title(); ?>" width="700" height="316"></figure>
+            <?php $image = defined('FW') ? esc_url(fw_resize($image, 700, 460)) : esc_url($image);?>
+            <figure><img src="<?php echo $image; ?>" alt="<?php the_title(); ?>" width="700" height="460"></figure>
         <?php endif;?>
         <h3><?php the_title(); ?></h3>
         <?php if(is_sticky()):?>
