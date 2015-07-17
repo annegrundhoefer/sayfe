@@ -869,7 +869,7 @@ audio, canvas, progress, video { display: inline-block; vertical-align: baseline
 svg:not(:root) { overflow: hidden; }
 @-ms-viewport { width: auto; }
 
-::selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #fff; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #000; color: #fff; text-shadow: none; }
 
 #root .desktop-hide, #root .tablet-only, #root .mobile-only, #root .regular-only { position: absolute;  top: -3000em; bottom: inherit; right: inherit; }
