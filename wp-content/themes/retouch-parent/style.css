@@ -2007,12 +2007,12 @@ fieldset.form-b {
 }
 /* Responsive --------- */
 /* 1100 */
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 80em) {
   #welcome > figure { margin-left: -530px; }
     body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
     #top h1, #clone h1, #featured > *, #content, #footer > *, #content.a > *, #contact > *, .news-b, #content.news-b, #welcome > *, #content.a > .module-a > *, #content.a > .va > *, #content.a > .vb > *, .news-c, #content.a > * > .news-c, .gallery-c > .heading-a { width: 960px; }
-    #welcome > figure, .module-a > figure, #content.a .module-a > figure { margin-left: -480px; }
+    #welcome > figure, .module-a > figure, #content.a .module-a > figure { margin-left: -530px; }
     #nav, #clone nav { margin-right: -480px; }
     #welcome > figure.mobile-c, #welcome > figure.mobile-d { margin-left: -498px; }
 
